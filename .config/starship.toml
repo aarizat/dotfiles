@@ -1,0 +1,71 @@
+add_newline = true
+
+[status]
+disabled = true
+
+[character]
+format = "🐙 $symbol"
+success_symbol = "[➜](bold green) " 
+error_symbol = "[✗](bold red) "
+
+[directory]
+truncation_length = 6
+truncate_to_repo = true
+style = "bold cyan"
+disabled = false
+
+[git_branch]
+truncation_length = 8
+truncation_symbol = "..."
+style = "bold purple"
+disabled = false
+
+[git_commit]
+only_detached = false
+
+[git_state]
+cherry_pick = "CHERRY PICKING"
+rebase = "REBASING"
+merge = "MERGING"
+revert = "REVERTING"
+bisect = "BISECTING"
+am = "AM"
+am_or_rebase = "AM/REBASE"
+style = "bold yellow"
+disabled = false
+
+[hostname]
+ssh_only = false
+trim_at = "."
+disabled = false
+
+[line_break]
+disabled = false
+
+
+[nodejs]
+symbol = "⬢ "
+style = "bold green"
+disabled = false
+
+[python]
+symbol = "🐍 "
+pyenv_version_name = false
+pyenv_prefix = "pyenv"
+style = "bold yellow"
+disabled = false
+
+[username]
+style_root = "bold red"
+style_user = "bold yellow"
+show_always = false
+disabled = false
+
+[aws]
+disabled = true
+
+[gcloud]
+disabled = true
+
+[cmd_duration]
+disabled = true
